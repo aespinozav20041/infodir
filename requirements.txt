@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+structlog
+python-dotenv
+httpx
+pytest
+pre-commit
