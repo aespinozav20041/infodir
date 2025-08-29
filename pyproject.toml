@@ -1,0 +1,23 @@
+[project]
+name = "intel-legal-radar"
+version = "0.1.0"
+description = "Intel Legal Radar monorepo"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "structlog",
+    "python-dotenv",
+    "httpx",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+addopts = "-ra -q"
+
+[tool.black]
+target-version = ["py311"]
+
+[tool.isort]
+profile = "black"
+py_version = 311
