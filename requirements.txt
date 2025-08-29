@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+pymilvus
+weaviate-client
+psycopg2-binary
