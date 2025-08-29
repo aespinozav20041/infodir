@@ -11,6 +11,10 @@ using [Delta Lake](https://delta.io/). The tables are partitioned by
 - `terraform/` – Terraform configuration for Glue databases, tables and minimal IAM role.
 - `schemas/` – Avro schema contracts for each dataset.
 
+## Fuentes regulatorias
+
+Para incorporar reportes oficiales, usa las APIs de **EDGAR**, **ESMA**, **CNMV**, **SMV**, **CVM**, etc. para descargar los documentos y normalizarlos antes de cargarlos en las tablas Delta.
+
 ## Usage
 
 ### Delta tables
