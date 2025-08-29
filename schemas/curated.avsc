@@ -1,0 +1,10 @@
+{
+  "type": "record",
+  "name": "CuratedRecord",
+  "namespace": "example",
+  "fields": [
+    {"name": "term", "type": "string"},
+    {"name": "period", "type": "string"},
+    {"name": "value", "type": "int"}
+  ]
+}
