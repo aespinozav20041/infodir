@@ -1,0 +1,10 @@
+{
+  "type": "record",
+  "name": "FeaturesRecord",
+  "namespace": "example",
+  "fields": [
+    {"name": "term", "type": "string"},
+    {"name": "period", "type": "string"},
+    {"name": "feature_value", "type": "double"}
+  ]
+}
